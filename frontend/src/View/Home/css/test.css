@@ -1,0 +1,120 @@
+.frame {
+    background-color: #2058a5;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+.confirmPassword-field{
+    background-color: #d9d9d9;
+}
+
+.div {
+    
+    height: 696px;
+    position: relative;
+    width: 1287px;
+}
+
+.frame .overlap {
+    background-color: #ffffff;
+    border-radius: 30px;
+    height: 490px;
+    left: 446px;
+    position: absolute;
+    top: 76px;
+    width: 392px;
+}
+
+.frame .overlap-group {
+    height: 178px;
+    left: 120px;
+    position: absolute;
+    top: 13px;
+    width: 262px;
+}
+
+.frame .vacaverse-logo {
+    height: 151px;
+    left: 0;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    width: 152px;
+}
+
+.frame .text-wrapper {
+    color: #2b3a8b;
+    font-family: "Inter-ExtraBold", Helvetica;
+    font-size: 28px;
+    font-weight: 800;
+    left: 11px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 144px;
+    width: 251px;
+}
+
+.frame .group {
+    height: 30px;
+    left: 73px;
+    position: absolute;
+    top: 204px;
+    width: 253px;
+}
+
+
+
+.frame .overlap-wrapper {
+    height: 30px;
+    left: 74px;
+    position: absolute;
+    top: 248px;
+    width: 253px;
+}
+
+
+
+.frame .overlap-group-wrapper {
+    height: 30px;
+    left: 74px;
+    position: absolute;
+    top: 294px;
+    width: 253px;
+}
+
+.frame .group-2 {
+    height: 30px;
+    left: 75px;
+    position: absolute;
+    top: 341px;
+    width: 253px;
+    color: #00000045;
+}
+
+.frame .overlap-2 {
+    background-color: #3080ef;
+    border-radius: 20px;
+    height: 37px;
+    left: 132px;
+    position: absolute;
+    top: 416px;
+    width: 127px;
+}
+
+
+
+.frame .p {
+    color: #ffffff;
+    font-family: "Inter-Medium", Helvetica;
+    font-size: 16px;
+    font-weight: 500;
+    left: 498px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 590px;
+    width: 313px;
+}

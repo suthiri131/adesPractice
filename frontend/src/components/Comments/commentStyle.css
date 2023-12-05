@@ -1,0 +1,89 @@
+.comment-container {
+  background-color: #f1f1f1 !important;
+}
+
+.comment {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+
+.comment-left {
+  margin-right: 10px;
+}
+
+.profilePicture {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.comment-right {
+  flex: 1;
+}
+
+.userid {
+  color: black !important;
+}
+
+.username {
+  color: black !important;
+  font-weight: bold;
+}
+
+.date {
+  color: black !important;
+  font-size: 0.8em;
+}
+
+.content {
+  color: black !important;
+  margin-top: 5px;
+}
+
+.edit-button,
+.delete-button,
+.reply-button {
+  background-color: #ccc !important;
+  color: black !important;
+  border: none;
+  padding: 5px 10px;
+  margin-top: 5px;
+  cursor: pointer;
+}
+
+.edit-button {
+  margin-left: 1px;
+}
+
+.delete-button {
+  margin-left: 1px;
+}
+
+
+
+.comment-line {
+  border: 1px solid #000000;
+  margin: 10px 0;
+}
+
+/* CSS */
+.view-replies-button {
+  margin-bottom: 10px;
+}
+
+.reply {
+  margin-bottom: 15px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.reply-username {
+  font-weight: bold;
+}
+
+.reply-content {
+  margin-top: 5px;
+  color: #333;
+}

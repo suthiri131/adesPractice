@@ -1,0 +1,113 @@
+/* profileMain.css */
+.profile {
+  background-color: white;
+}
+
+.userBio {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.profileIcon {
+  margin: 20px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 150px;
+  width: 150px;
+}
+
+.profileIcon img {
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: 50%;
+}
+
+.usernameProfile {
+  margin-top: 10px;
+  text-align: center;
+  font-size: 18px;
+ font-weight: bold;
+ font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Add styles to position cards at flex-start */
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  margin-left: 90px;
+}
+
+/* Add styles for individual cardPost components */
+.custom-card {
+  margin: 10px;
+  width: 300px;
+  /* Adjust width as needed */
+  /* Add other card styles */
+}
+
+.detailBox {
+  background-color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 255, 0.1);
+  align-items: center;
+  padding: 20px;
+}
+
+/* Result page */
+.result {
+  background-color: white;
+}
+
+.tabs {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.tabs {
+  margin: 0 10px;
+  padding: 10px;
+  cursor: pointer!important;
+  color: #333;
+  background: none !important;
+  border: none !important;
+  outline: none !important;
+  text-decoration: none !important;
+}
+
+button.yourPosts {
+  color: #333;
+  border-bottom: 2px solid transparent;
+  background: none !important;
+  border: none !important;
+  outline: none !important;
+  text-decoration: none !important;
+  padding: 10px;
+  margin-left: 10px;
+}
+
+button.savedPosts {
+  color: #888;
+  border-bottom: 2px solid transparent;
+  background: none !important;
+  border: none !important;
+  outline: none !important;
+  text-decoration: none !important;
+  padding: 10px;
+}
+
+button:hover {
+  text-decoration: underline !important;
+  cursor: pointer !important;
+}
+
+button.yourPosts.active,
+button.savedPosts.active {
+
+  font-weight: bold !important;
+  border-bottom: 5px solid rgb(64, 123, 185) !important;
+  border-radius: 5px !important;
+}

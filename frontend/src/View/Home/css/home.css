@@ -1,0 +1,75 @@
+.custom-slider {
+  margin: 10px;
+}
+
+.home-title1,
+.home-title2 {
+  font-family: "Inter-ExtraBold", Helvetica;
+  font-size: 25px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: normal;
+  top: 142px;
+  width: 126px;
+}
+
+.user-welcome {
+  color: black;
+  text-decoration: none;
+  margin: 0 15px;
+  margin-top: 50px;
+  font-weight: bold;
+  font-size: 35px;
+  text-align: center;
+}
+
+.Places,
+.Posts {
+  margin: 50px;
+  justify-content: center;
+}
+
+.place-cards-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.place-card {
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px;
+  border: 1px solid #ddd;
+}
+
+.places-card-info {
+  text-align: center;
+}
+
+.places-card-title,
+.places-card-cat,
+.places-card-description,
+.places-card-rating {
+  margin: 0;
+}
+.Recommended,.MostBookedPlaces{
+  margin:50px;
+}
+/* Remove the fixed height and width for slideshow images */
+.slideshow-images {
+  width: 100%;
+  height: auto;
+  max-width:1500px;
+  max-height: 700px;
+}
+
+.place-slide {
+  display: flex;
+  justify-content: center;
+  width: 100%; 
+}
+

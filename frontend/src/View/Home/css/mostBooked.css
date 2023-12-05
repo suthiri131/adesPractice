@@ -1,0 +1,28 @@
+/* Add this to your CSS file for the Most Booked section */
+.mostbooked-title,.mostpopular-title,.recommended-title {
+    font-family: "Inter-ExtraBold", Helvetica;
+    font-size: 25px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-bottom: 20px;
+  }
+  
+  .mostbooked-slider {
+    margin: 0 20px; /* Adjust margin as needed */
+  }
+  
+  .mostbooked-slide {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .mostbooked-slide img {
+    width: 300px; /* Adjust the width as needed */
+    height: 300px; /* Adjust the height as needed */
+    border-radius: 15px;
+    /* Add border-radius for rounded corners */
+  }
+
+  
+  

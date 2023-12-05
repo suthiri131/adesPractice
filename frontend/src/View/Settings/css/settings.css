@@ -1,0 +1,52 @@
+.settings-container {
+    display: flex;
+    height: 100vh;
+  }
+
+  .settings-title {
+    height: 50px;
+    width: auto;
+    background-color: whitesmoke;
+    margin-bottom: 20px;
+    color: black;
+    display: flex;
+    align-items: center; /* Center vertically */
+}
+
+.settings-title h1 {
+    margin: 0; /* Remove default margin */
+    padding: 10px; 
+    font-size: 20px;
+    line-height: 1.5; /* Adjust the line height to vertically center text */
+}
+
+
+  .setting-sidebar {
+    width: 30%;
+    background-color: #2b3a8b;
+    padding: 20px;
+  }
+  
+  .tab {
+    cursor: pointer;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    color:white;
+  }
+  
+  .tab:hover {
+    background-color: #ddd;
+  }
+  
+  .tab.active {
+    background-color: #3498db;
+    color: white;
+  }
+  
+  .content {
+    width: 70%;
+    padding: 20px;
+  }
+  

@@ -1,0 +1,47 @@
+.wallet-container {
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .wallet-header {
+    text-align: center;
+  }
+  
+  .wallet-image {
+    width: 100px;
+    height: 100px;
+    object-fit: contain; /* or 'cover' for square */
+  }
+  
+  .wallet-amount {
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .wallet-tabs {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+  }
+  
+  .wallet-tabs button {
+    padding: 8px 16px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .wallet-tabs button.active {
+    border-bottom: 2px solid blue; /* Highlight the active tab */
+  }
+  
+  .wallet-content {
+    margin-top: 20px;
+  }
+  

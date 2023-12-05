@@ -1,0 +1,21 @@
+.profileIcon {
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 150px;
+    width: 150px;
+  }
+  
+  .profileIcon img {
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 50%;
+  }
+
+  .save{
+    background-color:blue !important ;
+  }
+
+  

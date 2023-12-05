@@ -1,0 +1,14 @@
+.searched {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 20px 0;
+    text-align: center;
+  }
+  
+  /* Place cards container styles */
+  .SearchedRes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  

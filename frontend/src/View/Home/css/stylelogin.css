@@ -1,0 +1,153 @@
+.frame {
+    background-color: #2058a5;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+.password-field,.email-field{
+    background-color: #d9d9d9;
+  }
+
+ .div {
+   
+    height: 696px;
+    position: relative;
+    width: 1287px;
+}
+
+.frame .overlap {
+    background-color: #ffffff;
+    border-radius: 30px;
+    height: 379px;
+    left: 448px;
+    position: absolute;
+    top: 135px;
+    width: 392px;
+}
+
+.frame .overlap-group {
+    height: 176px;
+    left: 118px;
+    position: absolute;
+    top: 12px;
+    width: 159px;
+}
+
+.frame .vacaverse-logo {
+    height: 151px;
+    left: 0;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    width: 152px;
+}
+
+.frame .text-wrapper {
+    color: #2b3a8b;
+    font-family: "Inter-ExtraBold", Helvetica;
+    font-size: 28px;
+    font-weight: 800;
+    left: 28px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 142px;
+    width: 126px;
+}
+
+.frame .group {
+    height: 30px;
+    left: 69px;
+    position: absolute;
+    top: 207px;
+    width: 253px;
+}
+
+.frame .div-wrapper {
+    background-color: #d9d9d9;
+    border-radius: 10px;
+    height: 30px;
+    position: relative;
+    width: 251px;
+}
+
+.frame .text-wrapper-2 {
+    color: #00000045;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    left: 11px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 8px;
+    width: 51px;
+}
+
+.frame .overlap-wrapper {
+    height: 30px;
+    left: 70px;
+    position: absolute;
+    top: 248px;
+    width: 253px;
+}
+
+.frame .text-wrapper-3 {
+    color: #00000045;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    left: 11px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 8px;
+    width: 101px;
+}
+
+.frame .overlap-2 {
+    background-color: #3080ef !important;
+    border-radius: 20px;
+    height: 37px;
+    left: 130px;
+    position: absolute;
+    top: 304px;
+    width: 127px;
+}
+.frame .overlap-3 {
+    background:none;
+    border-radius: 20px;
+    height: 37px;
+    left: 20px;
+    position: absolute;
+    top: 304px;
+    width: 127px;
+}
+.frame .text-wrapper-4 {
+    color: #ffffff;
+    font-family: "Inter-Medium", Helvetica;
+    font-size: 16px;
+    font-weight: 500;
+    left: 42px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 8px;
+    white-space: nowrap;
+    width: 48px;
+}
+
+.frame .p {
+    color: #ffffff;
+    font-family: "Inter-Medium", Helvetica;
+    font-size: 16px;
+    font-weight: 500;
+    left: 510px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 539px;
+    width: 313px;
+}
+
